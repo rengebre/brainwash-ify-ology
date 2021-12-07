@@ -28,6 +28,7 @@ function App() {
     likeCounts: []
   })
 
+  // collect our array of set interests
   useEffect(() => {
     const getInterests = function() {
       axios
@@ -38,6 +39,7 @@ function App() {
     getInterests();
   }, []);
 
+  // Pulling info from Auth0, create or retrieve a user from our DB whose social_id matches the user.sub key from the global oAuth user.
   useEffect(() => {
     if (user) {
       const { email, name, picture, username, nickname } = user;
