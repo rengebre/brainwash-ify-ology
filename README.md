@@ -89,7 +89,8 @@ Additionally we integrated Autho0 using oAuth 2.0 to allow for user authenticati
 We are very proud of the work that went into this application with the time that we had, but some of the main improvements we woudl like to complete are as follows:
 
 - re-organize state to allow the app to run more efficiently
-- coupled with reorganizing state, this would allow us to limit the number of backend axios API calls, reducing the inefficient calls
+- With reorganizing state, this would allow us to limit the number of backend axios API calls, increasing efficiency and user experience
+- incorporating context and/or redux to manage state more effectively
 - update some UI elements -> example: not using likes to show posts you are interested in, you should be able to like a post but not be interested in learning it
 
 ## Project Layout
