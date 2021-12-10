@@ -86,6 +86,12 @@ With the short 10 day timeline for producing the platform, we wanted to go with 
 
 Additionally we integrated Autho0 using oAuth 2.0 to allow for user authentication and social logins, without having to deal with security issues associated with handling user data properly... let's offload that to companies who have this well sorted out ;).
 
+We are very proud of the work that went into this application with the time that we had, but some of the main improvements we woudl like to complete are as follows:
+
+- re-organize state to allow the app to run more efficiently
+- coupled with reorganizing state, this would allow us to limit the number of backend axios API calls, reducing the inefficient calls
+- update some UI elements -> example: not using likes to show posts you are interested in, you should be able to like a post but not be interested in learning it
+
 ## Project Layout
 ---
 This application was laid out following some best practices while using React. In the src directory you will find a [component directory](https://github.com/rengebre/brainwash-ify-ology/tree/main/src/components) which houses all of our react components which are fed to the App.js file located in the root of the src directory.
